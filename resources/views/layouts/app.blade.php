@@ -29,6 +29,7 @@
     <link rel="shortcut icon" href="{{ asset('template/src/assets/images/favicon.png') }}" />
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
         integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
     {{-- <script>
             // Inisialisasi peta dan pusatkan di lokasi default (misal: Kota Surakarta)
