@@ -18,7 +18,7 @@
                             <div class="card">
                                 <div class="card-body">
                                     <h5 class="card-title">Pesanan Baru</h5>
-                                    <p class="card-text fs-1 fw-bold">45</p>
+                                    <p class="card-text fs-1 fw-bold">40</p>
                                 </div>
                             </div>
                         </div>
