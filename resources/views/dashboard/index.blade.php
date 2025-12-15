@@ -5,6 +5,47 @@
             <div class="col-sm-12">
                 <div class="home-tab">
                     <div class="row">
+                        <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Total Pengguna</h5>
+                                    <p class="card-text fs-1 fw-bold">1.250</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Pesanan Baru</h5>
+                                    <p class="card-text fs-1 fw-bold">45</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Produk Terjual</h5>
+                                    <p class="card-text fs-1 fw-bold">320</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Laporan Masuk</h5>
+                                    <p class="card-text fs-1 fw-bold">8</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12">
+                <div class="home-tab">
+                    <div class="row">
                         <div class="col-lg-6 grid-margin stretch-card">
                             <div class="card">
                                 <div class="card-body">
