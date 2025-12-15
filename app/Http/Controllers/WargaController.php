@@ -13,14 +13,11 @@ class WargaController extends Controller
      */
     public function index()
     {
-        $jumlahwarga = Warga::count();
-        $wargas = Keluarga::with('kepala_keluarga')->orderBy('id', 'desc')->get();
-        return response()->json([
-            'success' => true,
-            'message' => 'Jumlah data warga berhasil diambil.',
-            'data' => $jumlahwarga
-        ], 200);
-        // return view('dashboard.index', ['wargas' => $wargas]);
+         $wargas = Keluarga::with('kepala_keluarga')->orderBy('id', 'desc')->get(); // Menggunakan paginate untuk data banyak
+
+        // Parsing data ke view
+        // return $wargas;
+        return view('dashboard.index', ['wargas' => $wargas]);
     }
 
     /**
